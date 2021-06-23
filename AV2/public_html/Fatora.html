@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatoração</title>
+    <style src="CSS/estilo: .css"></style>
+</head>
+<body>
+    <form id="formulario">
+        <div class="row">
+            <div class="col-md-12">
+                <input type="text" class="form-control" id="resultado" value="0">
+            </div>
+        </div>
+        <div class="row">
+            <div id="div-AC" class="col-md-12">
+                <input type="button" class="btn btn-secondary btn-lg" value="AC"></button>
+                <input id="btn-divisao" type="button"
+                    class="btn btn-secondary btn-lg" onclick="divide()" value="&divide;"> 
+                <br />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <input type="button" class="btn btn-secondary btn-lg" onclick="insert('7')" value="7">
+                <input type="button" class="btn btn-secondary btn-lg" onclick="insert('8')" value="8">
+                <input type="button" class="btn btn-secondary btn-lg" onclick="insert('9')" value="9">
+                <input type="button" class="btn btn-secondary btn-lg" onclick="">&times;</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <input type="button" class="btn btn-secondary btn-lg" onclick="insert('4')" value="4">
+                <input type="button" class="btn btn-secondary btn-lg" onclick="insert('5')" value="5">
+                <input type="button" class="btn btn-secondary btn-lg" onclick="insert('6')" value="6">
+                <input type="button" class="btn btn-secondary btn-lg" onclick="">&minus;</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <input type="button" class="btn btn-secondary btn-lg" onclick="insert('1')" value="1">
+                <input type="button" class="btn btn-secondary btn-lg" onclick="insert('2')" value="2">
+                <input type="button" class="btn btn-secondary btn-lg" onclick="insert('3')" value="3">
+                <input type="button" class="btn btn-secondary btn-lg" onclick="soma()" value="&plus;" >
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <input type="button" id="btn-0" class="btn btn-secondary btn-lg" value="0"onclick="insert('0')"></button>
+                <input type="button" class="btn btn-secondary btn-lg" onclick="insert('.')">.</button>
+                <input type="button" class="btn btn-secondary btn-lg">=</button>
+            </div>
+        </div>
+    </form>    
+</body>
+</html>
