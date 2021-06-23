@@ -1,0 +1,24 @@
+#resultado{
+    width: 280px;
+    text-align: right;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+#modal-calc{
+    width: 335px;
+}
+
+.btn-secondary{
+    width: 65px;
+}
+
+#btn-0{
+    width: 133px;
+}
+
+#btn-divisao{
+    margin-left: 140px;
+}
